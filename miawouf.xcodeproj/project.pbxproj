@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		94327D6C241679DB00DA4B31 /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94327D6B241679DB00DA4B31 /* Pet.swift */; };
+		94327D6E24167AC500DA4B31 /* Races.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94327D6D24167AC500DA4B31 /* Races.swift */; };
 		944ED4DE2412AD1A002FA7A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED4DD2412AD1A002FA7A3 /* AppDelegate.swift */; };
 		944ED4E02412AD1A002FA7A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED4DF2412AD1A002FA7A3 /* SceneDelegate.swift */; };
-		944ED4E22412AD1A002FA7A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED4E12412AD1A002FA7A3 /* ViewController.swift */; };
 		944ED4E52412AD1A002FA7A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944ED4E32412AD1A002FA7A3 /* Main.storyboard */; };
 		944ED4E72412AD1B002FA7A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 944ED4E62412AD1B002FA7A3 /* Assets.xcassets */; };
 		944ED4EA2412AD1B002FA7A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 944ED4E82412AD1B002FA7A3 /* LaunchScreen.storyboard */; };
 		944ED4F52412AD1C002FA7A3 /* miawoufTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED4F42412AD1C002FA7A3 /* miawoufTests.swift */; };
-		944ED5002412AD1C002FA7A3 /* miawoufUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED4FF2412AD1C002FA7A3 /* miawoufUITests.swift */; };
+		944ED5182413A799002FA7A3 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED5172413A799002FA7A3 /* WelcomeViewController.swift */; };
+		944ED51A2413ACE2002FA7A3 /* FormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED5192413ACE2002FA7A3 /* FormViewController.swift */; };
+		944ED51C2413B1D0002FA7A3 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED51B2413B1D0002FA7A3 /* SuccessViewController.swift */; };
+		944ED51E2413F141002FA7A3 /* CatWelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944ED51D2413F141002FA7A3 /* CatWelcomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +39,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		94327D6B241679DB00DA4B31 /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
+		94327D6D24167AC500DA4B31 /* Races.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Races.swift; path = "../../../Exo Miawouf/App Assets/Races.swift"; sourceTree = "<group>"; };
 		944ED4DA2412AD1A002FA7A3 /* miawouf.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = miawouf.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		944ED4DD2412AD1A002FA7A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		944ED4DF2412AD1A002FA7A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		944ED4E12412AD1A002FA7A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		944ED4E42412AD1A002FA7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		944ED4E62412AD1B002FA7A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		944ED4E92412AD1B002FA7A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,8 +52,10 @@
 		944ED4F42412AD1C002FA7A3 /* miawoufTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miawoufTests.swift; sourceTree = "<group>"; };
 		944ED4F62412AD1C002FA7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		944ED4FB2412AD1C002FA7A3 /* miawoufUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = miawoufUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		944ED4FF2412AD1C002FA7A3 /* miawoufUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = miawoufUITests.swift; sourceTree = "<group>"; };
-		944ED5012412AD1C002FA7A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		944ED5172413A799002FA7A3 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		944ED5192413ACE2002FA7A3 /* FormViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewController.swift; sourceTree = "<group>"; };
+		944ED51B2413B1D0002FA7A3 /* SuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		944ED51D2413F141002FA7A3 /* CatWelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatWelcomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,7 +88,6 @@
 			children = (
 				944ED4DC2412AD1A002FA7A3 /* miawouf */,
 				944ED4F32412AD1C002FA7A3 /* miawoufTests */,
-				944ED4FE2412AD1C002FA7A3 /* miawoufUITests */,
 				944ED4DB2412AD1A002FA7A3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,11 +107,11 @@
 			children = (
 				944ED4DD2412AD1A002FA7A3 /* AppDelegate.swift */,
 				944ED4DF2412AD1A002FA7A3 /* SceneDelegate.swift */,
-				944ED4E12412AD1A002FA7A3 /* ViewController.swift */,
-				944ED4E32412AD1A002FA7A3 /* Main.storyboard */,
 				944ED4E62412AD1B002FA7A3 /* Assets.xcassets */,
-				944ED4E82412AD1B002FA7A3 /* LaunchScreen.storyboard */,
 				944ED4EB2412AD1B002FA7A3 /* Info.plist */,
+				944ED5132412B243002FA7A3 /* Model */,
+				944ED5142412B24C002FA7A3 /* Controler */,
+				944ED5152412B25F002FA7A3 /* View */,
 			);
 			path = miawouf;
 			sourceTree = "<group>";
@@ -119,13 +125,33 @@
 			path = miawoufTests;
 			sourceTree = "<group>";
 		};
-		944ED4FE2412AD1C002FA7A3 /* miawoufUITests */ = {
+		944ED5132412B243002FA7A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				944ED4FF2412AD1C002FA7A3 /* miawoufUITests.swift */,
-				944ED5012412AD1C002FA7A3 /* Info.plist */,
+				94327D6D24167AC500DA4B31 /* Races.swift */,
+				94327D6B241679DB00DA4B31 /* Pet.swift */,
 			);
-			path = miawoufUITests;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		944ED5142412B24C002FA7A3 /* Controler */ = {
+			isa = PBXGroup;
+			children = (
+				944ED5172413A799002FA7A3 /* WelcomeViewController.swift */,
+				944ED5192413ACE2002FA7A3 /* FormViewController.swift */,
+				944ED51B2413B1D0002FA7A3 /* SuccessViewController.swift */,
+				944ED51D2413F141002FA7A3 /* CatWelcomeViewController.swift */,
+			);
+			path = Controler;
+			sourceTree = "<group>";
+		};
+		944ED5152412B25F002FA7A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				944ED4E32412AD1A002FA7A3 /* Main.storyboard */,
+				944ED4E82412AD1B002FA7A3 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +285,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944ED4E22412AD1A002FA7A3 /* ViewController.swift in Sources */,
+				94327D6C241679DB00DA4B31 /* Pet.swift in Sources */,
+				944ED5182413A799002FA7A3 /* WelcomeViewController.swift in Sources */,
 				944ED4DE2412AD1A002FA7A3 /* AppDelegate.swift in Sources */,
+				944ED51A2413ACE2002FA7A3 /* FormViewController.swift in Sources */,
+				94327D6E24167AC500DA4B31 /* Races.swift in Sources */,
+				944ED51E2413F141002FA7A3 /* CatWelcomeViewController.swift in Sources */,
+				944ED51C2413B1D0002FA7A3 /* SuccessViewController.swift in Sources */,
 				944ED4E02412AD1A002FA7A3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -277,7 +308,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				944ED5002412AD1C002FA7A3 /* miawoufUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
